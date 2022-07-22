@@ -1,0 +1,150 @@
+@media (max-width:1200px) {
+    .slider {
+        padding: 0 40px;
+    }
+
+    .menu-title h3 {
+        padding-left: 20px;
+    }
+
+    .see-more-link a {
+        display: inline-block;
+
+        padding: 20px;
+    }
+}
+
+@media (max-width:1050px) {
+    .logo-box img {
+        padding: 16px 20px;
+    }
+
+    .logo-box {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width:892px) {
+    .slider-text h1 {
+        font-size: 40px;
+    }
+
+    .menu a {
+        padding: 10px 15px;
+
+    }
+
+    .menu i {
+
+        padding: 15px;
+    }
+
+    .feature-section {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-text {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        padding: 30px 0;
+    }
+
+    .feature-img {
+        justify-self: center;
+    }
+
+
+}
+
+@media (max-width:750px) {
+    .slider {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.carts {
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:700px) {
+    .menu-bars {
+        display: inline-block;
+    }
+
+    .menu a {
+        display: none;
+
+    }
+
+    .slider-img img {
+        margin-bottom: 30px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .menu-bars i {
+        font-size: 27px;
+        position: absolute;
+        top: 20px;
+        left: 12px;
+        pointer-events: none;
+    }
+
+    .menu-bars input {
+        width: 28px;
+        height: 28px;
+        visibility: hidden;
+    }
+
+    .menu-bars input:checked~a {
+        display: block;
+    }
+
+
+
+    .menu i {
+        padding: 10px;
+        font-size: 28px;
+    }
+
+
+    .menu .fa-magnifying-glass {
+        display: none;
+    }
+}
+
+@media (max-width:650px) {
+    .carts {
+        grid-template-columns: 1fr;
+    }
+
+    .slider-text {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width:550px) {
+    .feature-text h1 {
+        font-size: 28px;
+    }
+}
+
+
+
+@media(max-width:400px) {
+    .slider-text h1 {
+        font-size: 28px;
+    }
+
+    .slider-img img {
+
+        height: 100%;
+        width: 100%;
+    }
+
+
+}

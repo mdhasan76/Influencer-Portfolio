@@ -1,0 +1,277 @@
+/*--------------
+    Google font  
+---------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@200;300;400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+}
+
+/* -----------
+    neded css
+  ----------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eeeeee;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ------------------
+    Menu section 
+  --------------------- */
+
+.influencer-menu {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+}
+
+.menu-bars {
+    display: none;
+}
+
+.menu-title h3 {
+    font-size: 24px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #3A3A3A;
+    padding: 10px 30px;
+    transition: .3s;
+}
+
+.menu a:hover {
+    color: black;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.menu i {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+
+
+/*----------------
+ Slider section 
+ ------------------ */
+
+.slider {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 50px;
+}
+
+.slider-text {
+    grid-column: 1 / span 9;
+    align-self: center;
+}
+
+.slider-text h1 {
+    font-size: 52px;
+}
+
+.slider-text p {
+    padding: 16px 0;
+}
+
+
+
+.prebook-btn {
+    margin: 17px 0;
+}
+
+
+.btn {
+    text-decoration: none;
+    background: #E02C6D;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+
+.btn>i {
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.slider-img {
+    grid-column: -1;
+    background-image: url(./images/Circle\ design.svg);
+    background-size: cover;
+}
+
+.slider-img img {
+    margin-bottom: 30px;
+}
+
+/*------------
+ Logo part  
+ -----------------*/
+
+.link-web {
+    max-width: 70%;
+    margin: auto;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    padding: 36px 0;
+    border-top: 1px solid #dddcdc;
+    border-bottom: 1px solid #dddcdc;
+}
+
+/*-------------------
+ Cart section 
+ ------------------- */
+.cart-section {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.cart-title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+}
+
+.carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 27px 30px;
+    margin-top: 30px;
+}
+
+.cart {
+    padding: 16px;
+    padding-bottom: 0;
+    box-shadow: 10px 10px 13px 4px #e3e3e3;
+    background: white;
+    border-radius: 8px;
+}
+
+.cart-img img {
+    width: 100%;
+}
+
+.cart-text {
+    padding: 16px 0;
+}
+
+.cart-text h2 {
+    font-size: 28px;
+}
+
+.cart-text p {
+    font-size: 24px;
+}
+
+.cart-star {
+    padding: 5px 0;
+}
+
+.cart-star i {
+    font-size: 14px;
+    color: #FB8200
+}
+
+.cart-sm-p {
+    font-size: 14px !important;
+}
+
+.see-more-link {
+    margin-top: 50px;
+    text-align: right;
+    grid-column: 1/-1;
+}
+
+.see-more-link a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 500;
+}
+
+.see-more-link a i {
+    font-weight: 600;
+    padding-left: 6px;
+}
+
+/*-------------
+Feature section 
+-------------*/
+
+.feature-section {
+    max-width: 1050px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    grid-column-gap: 96px;
+}
+
+.feature-text h1 {
+    font-size: 38px;
+}
+
+.feature-text p {
+    padding: 16px 0;
+    line-height: 1.8;
+}
+
+
+.feature-btn {
+    border-radius: 0;
+}
+
+/*----------------
+Footer section
+----------------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: #080808eb;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.footer-text p {
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+.social-icon a i {
+    font-size: 20px;
+    color: white;
+    padding: 10px 9px;
+    margin-top: 17px;
+}
