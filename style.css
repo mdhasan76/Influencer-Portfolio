@@ -248,6 +248,10 @@ Feature section
     border-radius: 0;
 }
 
+.feature-img img {
+    width: 100%;
+}
+
 /*----------------
 Footer section
 ----------------*/
